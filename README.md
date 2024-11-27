@@ -10,8 +10,8 @@ Este projeto implementa uma **simulação concorrente de entrega de encomendas**
    - Pacotes possuem um **ponto de origem** e um **ponto de destino**.
    - Veículos são responsáveis por transportar os pacotes entre os pontos.
    - Pontos de redistribuição funcionam como hubs para armazenamento temporário dos pacotes.
-2. A simulação deveria utilizar **threads** para representar os veículos e pacotes, e a sincronização deveria ser garantida com **semaforos** e **variáveis de trava**.
-3. O sistema deveria:
+2. A simulação deve utilizar **threads** para representar os veículos e pacotes, e a sincronização deve ser garantida com **semaforos** e **variáveis de trava**.
+3. O sistema deve:
    - Registrar todos os eventos relevantes (carregamento, descarregamento, movimentação, etc.).
    - Notificar o usuário sobre estados importantes, como quando uma fila em um ponto de redistribuição está vazia ou quando um veículo finaliza todas as entregas.
    - Encerrar a simulação apenas quando todas as encomendas fossem entregues.
