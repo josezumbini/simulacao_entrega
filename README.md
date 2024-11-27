@@ -24,15 +24,6 @@ Este projeto implementa uma **simulação concorrente de entrega de encomendas**
    - Python 3.8 ou superior.
 
 2. **Executando o Código**:
-   - Clone este repositório:
-     ```bash
-     git clone <url-do-repositorio>
-     cd <nome-do-repositorio>
-     ```
-   - Execute o script no terminal:
-     ```bash
-     python simulacao_entregas.py
-     ```
    - Insira os parâmetros solicitados no terminal:
      ```
      Digite o número de pontos de redistribuição (S): 3
