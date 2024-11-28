@@ -22,8 +22,11 @@ Este projeto implementa uma **simulação concorrente de entrega de encomendas**
 
 1. **Requisitos**:
    - Python 3.8 ou superior.
-
-2. **Executando o Código**:
+2. **Executando o código**:
+   - Execute o script no terminal:
+     ```bash
+     python simulacao_entrega.py
+     ```
    - Insira os parâmetros solicitados no terminal:
      ```
      Digite o número de pontos de redistribuição (S): 3
@@ -31,7 +34,6 @@ Este projeto implementa uma **simulação concorrente de entrega de encomendas**
      Digite o número de encomendas (P): 5
      Digite a capacidade máxima de cada veículo (A): 3
      ```
-
 3. **Saída**:
    - O estado inicial do sistema será exibido.
    - A simulação gerará eventos em tempo real, como movimentação de veículos, carregamento/descarregamento de pacotes e notificações importantes.
